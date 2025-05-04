@@ -9,7 +9,7 @@ class Coinconv extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Coinconv',
-      initialRoute: RoutesApp.initial,
+      initialRoute: RoutesApp.home,
       routes: RoutesApp.getRoutes(),
       debugShowCheckedModeBanner: false,
     );
