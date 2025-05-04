@@ -1,6 +1,6 @@
 
 import 'package:coincov/ui/pages/home_page.dart';
-import 'package:coincov/ui/pages/initial_page.dart';
+import 'package:coincov/ui/pages/stock_markets_page.dart';
 import 'package:flutter/material.dart';
 
 class RoutesApp {
@@ -9,7 +9,7 @@ class RoutesApp {
 
   static Map<String, WidgetBuilder> getRoutes() {
     return {
-      initial: (context) => const DetailsPage(),
+      initial: (context) => const StockMarketsPage(),
       home: (context) => const HomePage(),
     };
   }
